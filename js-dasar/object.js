@@ -30,4 +30,7 @@ function Siswa(nama, umur) {
     this.umur = umur;
 }
 
-var siswa4 = new Siswa('Rico', '17');
+var siswa4 = new Siswa(prompt('Masukkan Nama'), prompt('Masukkan Umur'));
+
+alert(siswa4.nama);
+alert(siswa4.umur);
